@@ -1,0 +1,14 @@
+[package]
+name = "libgmsh-sys"
+description = "Low-level bindings to the Gmsh API"
+version = "4.11.1"
+edition = "2021"
+keywords = ["ffi", "Gmsh"]
+
+build = "build.rs"
+links = "gmsh"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.64"
